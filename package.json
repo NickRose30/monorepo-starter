@@ -12,5 +12,8 @@
   "workspaces": [
     "packages/*"
   ],
-  "private": true
+  "private": true,
+  "dependencies": {
+    "logkitty": "^0.7.1"
+  }
 }
