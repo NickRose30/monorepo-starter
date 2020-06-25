@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["double","input"],"mappings":";AAAO,aAAA,OAAA,eAAA,QAAA,aAAA,CAAA,OAAA,IAAA,QAAA,YAAA,EAAA,IAAMA,EAAS,SAAAC,GAASA,OAAQ,EAARA,GAAxB,QAAA,OAAA","file":"index.js","sourceRoot":"../src","sourcesContent":["export const double = input => input * 4;"]}
