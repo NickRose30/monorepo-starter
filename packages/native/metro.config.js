@@ -7,8 +7,15 @@ function getConfig(appDir, options = {}) {
   // Add additional Yarn workspace package roots to the module map
   // https://bit.ly/2LHHTP0
   const watchFolders = [
-    path.resolve(appDir, '..', 'common', 'node_modules'),
-    ...workspaces.filter((workspaceDir) => !(workspaceDir === appDir)),
+    path.resolve(
+      appDir,
+      '..',
+      'common',
+      'node_modules'
+    ),
+    ...workspaces.filter(
+      workspaceDir => !(workspaceDir === appDir)
+    ),
   ];
 
   return {
@@ -16,7 +23,11 @@ function getConfig(appDir, options = {}) {
     resolver: {
       extraNodeModules: {
         // Resolve all react-native module imports to the locally-installed version
-        'react-native': path.resolve(appDir, 'node_modules', 'react-native'),
+        'react-native': path.resolve(
+          appDir,
+          'node_modules',
+          'react-native'
+        ),
       },
     },
   };
