@@ -11,9 +11,13 @@ Simple starter code for a yarn-workspaces monorepo consisting of a React and a R
 ## Startup Commands
 
 `yarn web` - start up the web app
+<br />
 `yarn native` - simply start up the expo project
+<br />
 `yarn native:ios` - start up the app in an ios simulator - you must be on a mac and have XCode installed for this
+<br />
 `yarn native:android` - start up the app in an android simulator - you must have android studio installed and a simulator setup for this
+<br />
 
 ## Notes
 You can also run `yarn lint` to lint the entire project
