@@ -1,22 +1,20 @@
 import React from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
 import { double } from '@monorepo/common';
+import styled from 'styled-components/native';
+
+const Container = styled.View`
+  flex: 1;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Text = styled.Text`
+  color: green;
+`;
 
 export default _ => (
-  <View style={styles.container}>
+  <Container>
     <Text>Double 2 is {double(2)}</Text>
-  </View>
+  </Container>
 );
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

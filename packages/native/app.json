@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-expo-skeleton",
-    "slug": "react-native-expo-skeleton",
+    "name": "native",
+    "slug": "native",
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",

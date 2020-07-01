@@ -3,7 +3,7 @@ import { double } from '@monorepo/common';
 import styled from 'styled-components';
 
 const H1 = styled.h1`
-  color: red;
+  color: blue;
 `;
 
 export default _ => (
