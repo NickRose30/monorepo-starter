@@ -1,6 +1,11 @@
 import React from 'react';
 import { double } from '@monorepo/common';
+import styled from 'styled-components';
+
+const H1 = styled.h1`
+  color: red;
+`;
 
 export default _ => (
-  <h1>Double 2 is {double(2)}</h1>
+  <H1>Double 2 is {double(2)}</H1>
 );
