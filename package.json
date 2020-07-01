@@ -8,7 +8,7 @@
     "web": "yarn workspace web start",
     "web:clean": "yarn workspace web clean",
     "web:build": "yarn workspace web build",
-    "native": "yarn  workspace native start",
+    "native": "yarn workspace native start",
     "native:ios": "yarn workspace native ios",
     "native:android": "yarn workspace native android"
   },

@@ -7,9 +7,9 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist .cache",
     "start": "parcel src/index.html",
-    "build": "rimraf dist parcel build src/index.html"
+    "build": "rimraf dist && parcel build src/index.html"
   },
   "dependencies": {
     "cross-env": "^7.0.2"
